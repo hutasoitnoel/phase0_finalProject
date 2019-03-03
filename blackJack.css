@@ -1,0 +1,62 @@
+/* Board Color (Green) ===> #00BC5D */
+
+@font-face{
+    font-family:BudmoJiggler ; src: url("budmo jiggler.otf")
+}
+
+body {
+    background-color: #00BC5D;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: BudmoJiggler;
+    margin-bottom: 75px;
+    font-size: 90px
+}
+
+h2 {
+    text-align: center;
+    font-family: BudmoJiggler;
+    font-size: 35px
+}
+
+.buttons    {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#hit , #stand , #restart    {
+    font-family: BudmoJiggler;
+    font-size: 20px
+}
+
+.dealer-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.my-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.image-2 {
+    position: absolute;
+    margin-left: -132px;
+    margin-top: 1px;
+}
+
+#dealerCard1    {
+    position: absolute;
+    margin-left: -132px;
+    margin-top: 1px;
+}
+
+#coverCard  {
+    position: absolute;
+    margin-top: -204px;
+    margin-left: 1px;
+}
