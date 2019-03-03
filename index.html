@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Let's Play BlackJack!</title>
+    <link rel="stylesheet" type="text/css" href="blackJack.css">
+  </head>
+  <body>
+    <h1 id="header">Let's Play BlackJack!</h1>
+
+    <h2 class="dealer-points" id="dealer-points-id">Dealer Points: 0</h2>
+    <div class="dealer-cards">
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="dealerCard7">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="dealerCard6">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="dealerCard5">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="dealerCard4">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="dealerCard3">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="dealerCard2">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img src="" id="dealerCard1">
+          <img src="images/decks/small/deck_6.png" id ="coverCard">
+      </div>
+    </div>
+
+    <div class="buttons">
+        <input type="button" id="hit" value="Hit" onclick="hit()">
+        <input type="button" id="restart" value="Restart" onclick="restart()">
+        <input type="button" id="stand" value="Stand" onclick="keepHitting()">
+    </div>    
+
+    <div class="my-cards">
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="myCard1">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="myCard2">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="myCard3">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="myCard4">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="myCard5">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="myCard6">
+      </div>
+
+      <div class="cards">
+          <img class ="image-1" src="images/extra/card_selected.png">
+          <img class ="image-2" src="" id="myCard7">
+      </div>
+    </div>
+    
+    <h2 class="my-points" id="my-points-id">My Points: 0</h2>
+    <script src="blackJack.js"></script>
+  </body>
+</html>
